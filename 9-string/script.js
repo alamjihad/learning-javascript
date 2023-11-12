@@ -14,4 +14,5 @@ let y = new String ("Jhon");
                                                 // but === result is okay
 console.log(typeof x);
 console.log(typeof y);
-console.log(typeof x === y);
+console.log(x == y);
+console.log(x === y);
