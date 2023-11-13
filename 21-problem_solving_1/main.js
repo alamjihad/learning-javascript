@@ -62,7 +62,7 @@ document.getElementById("demo5").innerHTML= countVowels("I love Bangladesh");
 }
 
 
-/* 6.2th snach unique numbers from an arry */
+/* 7th snach unique numbers from an arry */
 
 
 {
