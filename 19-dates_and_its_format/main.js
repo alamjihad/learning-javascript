@@ -10,3 +10,5 @@ const da = new Date(2018,11);
 console.log(da);
 const ya =new Date(2018);
 console.log(ya);
+let sce=Date.parse("March 21,2012");
+document.getElementById("demo").innerHTML=sce;
