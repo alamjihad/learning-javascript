@@ -3,9 +3,6 @@ let n=text.search("W3school");
 document.getElementById("demo").innerHTML=n;
 
 
-/*-------------------------------modifires can be i/m/g--------------------------------*/
-
-
 // i means small and big everything will work      
 // g means its effect will be globally 
 // m means it will work multiline wherever it presents
