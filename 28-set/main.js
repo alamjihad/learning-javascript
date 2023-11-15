@@ -26,7 +26,7 @@ letters.add("b");
 letters.add("c");
 letters.add("a");
 letters.add("b");
-//console.log(letters);
+console.log(letters);
 let text ="";
 letters.forEach(function(value)
 {
