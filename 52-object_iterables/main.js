@@ -1,23 +1,23 @@
-// const numbers = [1,2,3,4,5];
+const numbers = [1,2,3,4,5];
 
-// const numIterator = numbers[Symbol.iterator]();
-// // console.dir(numbers[Symbol.iterator]());
-// // for(let n of numbers){
-// //     console.log(n);
-// // }
-// // console.log(numIterator.next());
-// // console.log(numIterator.next());
-// // console.log(numIterator.next());
-// // console.log(numIterator.next());
-// // console.log(numIterator.next());
-// // console.log(numIterator.next());
-// const number={
-//     one:1,
-//     two:2,
-//     three:3
-// };
+const numIterator = numbers[Symbol.iterator]();
+console.dir(numbers[Symbol.iterator]());
+for(let n of numbers){
+    console.log(n);
+}
+console.log(numIterator.next());
+console.log(numIterator.next());
+console.log(numIterator.next());
+console.log(numIterator.next());
+console.log(numIterator.next());
+console.log(numIterator.next());
+const number={
+    one:1,
+    two:2,
+    three:3
+};
 
-// console.dir(number);
+console.dir(number);
 
 
 const myNumber ={};
