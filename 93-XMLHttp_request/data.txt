@@ -1,0 +1,9 @@
+<h1>
+    We are learning AJAX
+</h1>
+<div>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam eveniet similique ad veniam quo repudiandae
+    voluptates officia unde. Corrupti, quasi. Ex odio autem sint? Modi odio sequi a? Facilis quas reiciendis at, 
+    veniam quisquam et, qui, aut asperiores commodi deserunt maiores temporibus repellendus laboriosam vel repellat
+    minus atque sequi!
+</div>
