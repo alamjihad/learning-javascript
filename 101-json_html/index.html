@@ -11,7 +11,7 @@
     </h2>
     <select id="myselect" onchange="change_myselect(this.value)">
         <option value="">
-            Choose an option
+            Choose an option:
         </option>
         <option value="customers">
             Customers
@@ -19,7 +19,7 @@
         <option value="products">
             Products
         </option>
-        <option value="suppilers">
+        <option value="suppliers">
             Suppliers
         </option>
     </select>
@@ -28,23 +28,25 @@
     </p>
     <script>
         async function change_myselect(sel){
-            let x="";
-            const dbParam = JSON.stringify({table:sel,limit:20});
-            const response =await fetch ("json_demo_html_table.php",{
-                method:"POST",
-                headres:{
-                    "Content-Type": "application/x-www-form-urlencoded"
+        
+            let x = "";
+            const dbParam = JSON.stringify({table: sel, limit: 20 });
+            const response = await fetch("json_demo_html_table.php",{
+                method: "POST",
+                headers: {
+                    "Content-type": "application/x-www-form-urlencoded",
                 },
                 body:"x=" + dbParam,
             });
 
             const myObj = await response.json();
-            text = "<table border='1'>";
-            for (x in myObj){
+            console.log(myObj);
+            let text = "<table border='1'>";
+            for (x in myObj) {
                 text+="<tr><td>" + myObj[x].name + "</td></tr>";
             }
-            text+="</table>";
-            document.getElementById("demo").innerHTML=text;
+            text += "</table>";
+            document.getElementById("demo").innerHTML = text;
         }
     </script>
 </body>
