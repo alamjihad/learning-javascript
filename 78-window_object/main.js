@@ -12,6 +12,7 @@ height.innerHTML ="Window inner hight is: " + window.innerHeight;
 
 function openWindow(){
     myWindow=window.open("https://google.com","_self");
+    //myWindow=window.open("https://google.com");
 }
 
 function closeWindow(){

@@ -4,7 +4,7 @@ const interval =document.getElementById("interval");
 let timeoutInstance;
 let intervalInstance;
 
-function setTimeout(){
+function startTimeout(){
    timeoutInstance= setTimeout(function(){
     timeout.innerHTML="3 seconds over";
     },3000);
